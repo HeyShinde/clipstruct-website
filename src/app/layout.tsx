@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: 'ClipStruct - The Ultimate macOS Clipboard Manager',
         description: 'A powerful, privacy-focused clipboard manager for macOS. Store 100+ items, use global hotkeys, and never lose important clipboard content again.',
-        url: 'https://clipstruct.yoursite.com',
+        url: 'https://clipstruct.heyshinde.com',
         siteName: 'ClipStruct',
         images: [
             {
@@ -38,7 +38,7 @@ export default function RootLayout({
     return (
         <html lang="en">
         <head>
-            <link rel="icon" href="/favicon.ico" sizes="any" />
+            <link rel="icon" href="favicon.ico" sizes="any" />
         </head>
         <body className="bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 text-white min-h-screen">
         {children}
